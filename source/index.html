@@ -1,60 +1,191 @@
 <!DOCTYPE html>
 <html lang="eng">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="format-detection" content="telephone=no">
-  <meta name="description" content="Cruises to Antarctica – The magical world of icebergs and penguins."/>
+  <meta name="description" content="Cruises to Antarctica – The magical world of icebergs and penguins." />
   <title>Cruises to Antarctica</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
 
-  <div class="wrapper">
-    <header class="header">
-      <div class="container">
-    
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__body">
+        <div class="logo">
+          <a class="logo__link" href="#header">
+            <svg class="logo__img" width="70" height="38">
+              <use xlink:href="../img/sprite_auto.svg#logo"></use>
+            </svg>
+          </a>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#header">Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#blog">Blog</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#features">Features</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#pricing">Pricing</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#documentation">Documentation</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="burger">
+          <input class="burger__checkbox" type="checkbox" id="burger__checkbox">
+          <div class="burger-button">
+            <label class="burger__label" for="burger__checkbox"></label>
+            <div class="burger-button__line"></div>
+          </div>
+          <nav class="burger-menu">
+            <ul class="burger-menu__list">
+              <li class="burger-menu__item">
+                <a class="burger-menu__link" href="#home">Advantages</a>
+              </li>
+              <li class="burger-menu__item">
+                <a class="burger-menu__link" href="#blog">Directions</a>
+              </li>
+              <li class="burger-menu__item">
+                <a class="burger-menu__link" href="#features">Upcoming cruises</a>
+              </li>
+              <li class="burger-menu__item">
+                <a class="burger-menu__link" href="#pricing">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </header>
+    </div>
+  </header>
+
+  <div class="wrapper">
     <main class="main">
-      <section class="section">
+      <section class="section home-page">
         <div class="container">
+          <div class="section__body">
+            <h1 class="title-big">Cruises to Antarctica</h1>
+            <p class="text-big">The magical world of icebergs and penguins</p>
+          </div>
+        </div>
+      </section>
+      <section class="section intro-page">
+        <div class="container">
+          <div class="section__body">
+            <div class="text-block">
+              <h1 class="title-small">Travel to the ends of the earth</h1>
+              <p class="text-medium">This magical journey will help you get to know the wonderful world of Antarctica.
+                Our
+                cruise ship will take you to the ends of the Earth, where you can see: icebergs, several types of
+                penguins, whales, fur seals, and much more.</p>
+            </div>
+            <div class="picture-block">
+              <picture class="section__img">
+                <source srcset="../img/pinguins-intro-mobile@1x.jpg 1x, ../img/pinguins-intro-mobile@2x.jpg 2x"
+                  type="image/jpg">
+                <img src="../img/pinguins-intro-mobile@1x.jpg" alt="pinguins picture">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section benefits-page">
+        <div class="container">
+          <div class="section__body">
+            <h1 class="title-small">Benefits</h1>
+            <div class="section__content">
+              <div class="item">
+                <div class="item__icon">
+                  <svg class="icon-liner" id="icon-lainer" height="26" width="21">
+                    <use xlink:href="../img/sprite_auto.svg#icon-liner"></use>
+                  </svg>
+                </div>
+                <h2 class="item__title subtitle-big">Small a cruise ship</h2>
+                <p class="item__text text-small">A cruise ship with just 300 guests aboard can help you avoid noise
+                  and queues.
+                  And will give you an opportunity to enjoy the views and nature.</p>
+              </div>
+
+              <div class="item">
+                <div class="item__icon">
+                  <svg class="icon-check" id="icon-check" height="19" width="33">
+                    <use xlink:href="../img/sprite_auto.svg#icon-check"></use>
+                  </svg>
+                </div>
+                <h2 class="item__title subtitle-big">All inclusive</h2>
+                <p class="item__text text-small">All our cruises operate
+                  according to the "All-Inclusive" system. Great dishes
+                  and an unlimited bar available
+                  for you 24 hours.</p>
+              </div>
+
+              <div class="item">
+                <div class="item__icon">
+                  <svg class="icon-boat" id="icon-boat" height="13" width="38">
+                    <use xlink:href="../img/sprite_auto.svg#icon-boat"></use>
+                  </svg>
+                </div>
+                <h2 class="item__title subtitle-big">Excursions by Zodiac</h2>
+                <p class="item__text text-small">We offer excursion tours to the shores of Antarctica on equipped Zodiac
+                  boats with experienced guides.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section cruises-page">
+        <div class="container">
+          <div class="section__body">
+            <h1 class="title-small">Upcoming cruises</h1>
+            <div class="section__content">
+              
+              <div class="item">
+                <h2 class="item__title subtitle-big">Cruise "Astoria"</h2>
+                <h3 class="item__subtitle subtitle-small">Rout</h3>
+                <p class="item__text text-small">Argentina - Falkland Islands - Antarctica - Chile</p>
+                <h3 class="item__subtitle subtitle-small">Departure</h3>
+                <p class="item__text text-small">Buenos Aires</p>
+                <h3 class="item__subtitle subtitle-small">Duration</h3>
+                <p class="item__text text-small">20 h.</p>
+                <h3 class="item__subtitle subtitle-small">Price</h3>
+                <p class="item__text text-small">from 14 500 $</p>
+              </div>
+              </div>
+              
+            </div>
+          </div>
+
         </div>
       </section>
       <section class="section">
         <div class="container">
-    
+
         </div>
       </section>
       <section class="section">
         <div class="container">
-    
-        </div>
-      </section>
-      <section class="section">
-        <div class="container">
-    
-        </div>
-      </section>
-      <section class="section">
-        <div class="container">
-    
-        </div>
-      </section>
-      <section class="section">
-        <div class="container">
-    
+
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-        
+
       </div>
     </footer>
   </div>
   <script src="js/vendor/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>

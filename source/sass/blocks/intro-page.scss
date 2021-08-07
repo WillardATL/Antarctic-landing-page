@@ -1,0 +1,16 @@
+.intro-page {
+    background-color: $main-color-light;
+    color: $main-color-dark; 
+    .text-block {
+        h1 {
+            margin-top: 65px;
+        }
+        p {
+            margin: 30px 0;
+        }
+    }
+    .picture-block {
+        padding-bottom: 40px;
+    }
+
+}

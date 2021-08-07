@@ -1,0 +1,24 @@
+.home-page {
+    background-image: url("../img/background-home-mobile@1x.webp");
+    background-color: $bg-color-reserv;
+    background-position: center bottom;
+    background-repeat: no-repeat;  
+    background-size: cover;
+    color: $main-color-light; 
+    .section__body {
+        //align-items: flex-start;
+        //justify-content: center;
+    }
+    h1 {
+        margin-top: 37%;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media screen and (orientation:landscape) {
+    .home-page h1 {
+        margin-top: 10%;
+    }
+    }
+    

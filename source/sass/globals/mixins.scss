@@ -1,0 +1,6 @@
+@mixin customText ($size, $height, $weight) {
+    font-family: "Montserrat", "Arial Narrow", sans-serif;
+    font-size: $size;
+    line-height: $height;
+    font-weight: $weight;
+}

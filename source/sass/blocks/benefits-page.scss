@@ -1,0 +1,29 @@
+.benefits-page {
+    background-color: $bg-color;
+    color: $main-color-dark; 
+    .section__body {
+        //align-items: flex-start;
+        //justify-content: center;
+        padding: 65px 0 65px;
+        .title-small {
+            margin-bottom: 40px;
+        }
+    }
+    .section__content {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .item {
+        background-color: $main-color-light;
+        padding: 25px 20px;
+        &__title {
+            margin: 25px 0 20px;
+        }
+        &__text {
+            line-height: 180%;
+        }
+
+    }
+
+}

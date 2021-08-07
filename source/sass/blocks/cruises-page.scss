@@ -1,0 +1,42 @@
+.cruises-page {
+    background-color: $main-color-light;
+    color: $main-color-dark; 
+    .section__body {
+        align-items: center;
+        //justify-content: center;
+        padding: 65px 0 65px;
+        .title-small {
+            margin-bottom: 25px;
+            //align-self: center;
+        }
+    }
+    .section__content {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .item {
+        background-color: $main-color-dark;
+        color: $main-color-light;
+        height: 386px;
+        max-width: 310px;
+        padding: 25px 35px;
+        overflow: hidden;
+        &__title {
+            margin-top: 310px;
+            margin-bottom: 25px;
+        }
+        &__text {
+            color: $bg-color;
+            margin-bottom: 20px;
+        }
+        &:hover {
+            .item__title {
+                margin-top: 0px;
+                transition: all 0.5s;
+            }
+        }
+
+    }
+
+}
