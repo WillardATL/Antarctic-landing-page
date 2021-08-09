@@ -74,8 +74,8 @@
       <section class="section home-page">
         <div class="container">
           <div class="section__body">
-            <h1 class="title-big">Cruises to Antarctica</h1>
-            <p class="text-big">The magical world of icebergs and penguins</p>
+            <h1 class="section__title title-big">Cruises to Antarctica</h1>
+            <p class="section__text text-big">The magical world of icebergs and penguins</p>
           </div>
         </div>
       </section>
@@ -260,7 +260,20 @@
       <section class="section booking-page">
         <div class="container">
           <div class="section__body">
-            <h2 class="title-medium">Early booking</h2>
+            <h2 class="section__title title-medium">Early booking</h2>
+            <p class="section__text text-big">Book your tour 3-6 months before the check-out date
+              and save up to 50%</p>
+            <form class="form booking-form">
+              <p class="form__description subtitle-big">Leave a request and we will contact you</p>
+              <input class="form__input" type="text" id="form-name" name="form-name" placeholder="John Doe" required="">
+              <input class="form__input" type="tel" id="form-telephone" name="form-telephon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="" placeholder="123-456-7890">
+              <input class="form__input" type="email" id="form-email" name="form-email" placeholder="example@example.com" required="">
+              <div class="form__agreement">
+                <input class="form__agreement-checkbox" type="checkbox" required="" id="agreement-check" name="agreement-check">
+                <label for="agreement-check" class="form__agreement-label text-small">I agree to process my personal data</label>
+              </div>
+              <button class="form__button" type="submit" id="btn-form">Send a request</button>
+            </form>
           </div>
         </div>
       </section>
