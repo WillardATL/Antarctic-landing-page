@@ -5,9 +5,10 @@
         //align-items: flex-start;
         //justify-content: center;
         padding: 65px 0 65px;
-        .title-small {
-            margin-bottom: 40px;
-        }
+    }
+    .section__title {
+        margin-bottom: 40px;
+        align-self: center;
     }
     .section__content {
         display: inline-flex;

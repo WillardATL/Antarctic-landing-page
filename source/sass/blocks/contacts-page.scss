@@ -1,0 +1,38 @@
+.contacts-page {
+    background-color: $main-color-light;
+    color: $main-color-dark; 
+    .section__body {
+        align-items: center;
+        padding: 65px 0 65px;
+    }
+    .section__content  {
+        max-width: 320px;
+    }
+    .item {
+        display: flex;
+        align-self: flex-start;
+        &-adress {
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        &-phone {
+            margin-bottom: 40px;
+        }
+        &__icon {
+            margin-right: 10px;
+        }
+    }
+    //.map-responsive {
+    //    overflow: hidden;
+    //    padding-bottom: 56.25%;
+    //    position: relative;
+     //   height: 0;
+    //}
+    //.map-responsive iframe {
+    //    left: 0;
+    //    top: 0;
+    //    height: 100%;
+     //   width: 100%;
+    //    position: absolute;
+   // }
+}
