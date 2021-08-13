@@ -1,0 +1,54 @@
+.header {
+    width:100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    &__body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        flex: 0 0 42px;
+        z-index: 3;
+        img,
+        svg {
+            display: block;
+            max-width: 100%;
+        }
+    }
+    .menu {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .menu {
+        display: flex !important;
+        &__list {
+            display: inline-flex;
+            gap: 33px;
+            padding-inline-start: 0px;
+        }
+        &__item {
+            list-style: none;
+        }
+        &__link {
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 17px;
+            font-weight: 500;
+            color: $main-color-light;
+            &:hover,
+            &:active,
+            &:focus {
+                color: darken($main-color-light, 25);
+            }
+        }
+    }
+    .burger {
+        display: none;
+    }
+}

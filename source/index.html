@@ -26,19 +26,16 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a class="menu__link" href="#header">Home</a>
+              <a class="menu__link" href="#advantages">Advantages</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#blog">Blog</a>
+              <a class="menu__link" href="#directions">Directions</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#features">Features</a>
+              <a class="menu__link" href="#cruises">Upcoming cruises</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#pricing">Pricing</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#documentation">Documentation</a>
+              <a class="menu__link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -51,16 +48,16 @@
           <nav class="burger-menu">
             <ul class="burger-menu__list">
               <li class="burger-menu__item">
-                <a class="burger-menu__link" href="#home">Advantages</a>
+                <a class="burger-menu__link" href="#advantages">Advantages</a>
               </li>
               <li class="burger-menu__item">
-                <a class="burger-menu__link" href="#blog">Directions</a>
+                <a class="burger-menu__link" href="#directions">Directions</a>
               </li>
               <li class="burger-menu__item">
-                <a class="burger-menu__link" href="#features">Upcoming cruises</a>
+                <a class="burger-menu__link" href="#cruises">Upcoming cruises</a>
               </li>
               <li class="burger-menu__item">
-                <a class="burger-menu__link" href="#pricing">Contacts</a>
+                <a class="burger-menu__link" href="#contacts">Contacts</a>
               </li>
             </ul>
           </nav>
@@ -99,10 +96,10 @@
           </div>
         </div>
       </section>
-      <section class="section benefits-page">
+      <section class="section advantages-page" id="advantages">
         <div class="container">
           <div class="section__body">
-            <h2 class="section__title title-small">Benefits</h2>
+            <h2 class="section__title title-small">Advantages</h2>
             <div class="section__content">
               <div class="item">
                 <div class="item__icon">
@@ -143,7 +140,7 @@
           </div>
         </div>
       </section>
-      <section class="section cruises-page">
+      <section class="section cruises-page" id="cruises">
         <div class="container">
           <div class="section__body">
             <h2 class="title-small">Upcoming cruises</h2>
@@ -282,7 +279,7 @@
           </div>
         </div>
       </section>
-      <section class="section contacts-page">
+      <section class="section contacts-page" id="contacts">
         <div class="container">
           <div class="section__body">
 
@@ -315,7 +312,7 @@
                 scrolling="no"
                 marginheight="0"
                 marginwidth="0"
-                src="https://maps.google.com/maps?q=33.7483996,-84.3924488&hl=es&z=18&output=embed">
+                src="https://maps.google.com/maps?q=33.7483996,-84.3924488&hl=es&z=10&output=embed">
             </iframe>
             </div>
 
@@ -325,12 +322,59 @@
     </main>
     <footer class="footer">
       <div class="container">
+        <div class="footer__body">
+          <div class="logo">
+            <a class="logo__link" href="#header">
+              <svg class="logo__img" width="70" height="38">
+                <use xlink:href="../img/sprite_auto.svg#logo"></use>
+              </svg>
+            </a>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#advantages">Advantages</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#directions">Directions</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#cruises">Upcoming cruises</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="social">
+            <div class="social__item">
+              <a class="social__link" href="#">
+                  <svg class="social__link-img icon-facebook" height="17" width="9">
+                      <use xlink:href="../img/sprite_auto.svg#social-facebook"></use>
+                  </svg>
+              </a>
+          </div>
+          <div class="social__item">
+              <a class="social__link" href="#">
+                <svg class="social__link-img icon-instagram" height="16" width="16">
+                  <use xlink:href="../img/sprite_auto.svg#social-instagram"></use>
+              </svg>
+              </a>
+          </div>
+          <div class="social__item">
+              <a class="social__link" href="#">
+                  <svg class="social__link-img icon-twitter" height="13" width="16">
+                      <use xlink:href="../img/sprite_auto.svg#social-twitter"></use>
+                  </svg>
+              </a>
+          </div>
+      </div>
+          </div>
+        </div>
 
       </div>
     </footer>
   </div>
-  <script src="js/vendor/swiper-bundle.min.js"></script>
-  <script src="js/main.js"></script>
 </body>
 
 </html>

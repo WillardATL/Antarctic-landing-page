@@ -6,57 +6,15 @@
 @import "globals/mixins.scss";
 @import "globals/variables.scss";
 @import "globals/swiper.scss";
+@import "blocks/header.scss";
 @import "blocks/burger.scss";
 @import "blocks/home-page.scss";
 @import "blocks/intro-page.scss";
-@import "blocks/benefits-page.scss";
+@import "blocks/advantages-page.scss";
 @import "blocks/cruises-page.scss";
 @import "blocks/booking-page.scss";
 @import "blocks/booking-form.scss";
 @import "blocks/contacts-page.scss";
+@import "blocks/footer.scss";
 
-.header {
-    width:100%;
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
-    &__body {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
 
-    .logo {
-        flex: 0 0 42px;
-        z-index: 3;
-        img,
-        svg {
-            display: block;
-            max-width: 100%;
-        }
-    }
-
-    .menu {
-        display: none;
-        &__list {
-            display: inline-flex;
-            gap: 33px;
-            padding-inline-start: 0px;
-        }
-        &__item {
-            list-style: none;
-        }
-        &__link {
-            text-decoration: none;
-            line-height: 100%;
-            font-weight: 500;
-            color: $main-color-light;
-            &:hover,
-            &:active,
-            &:focus {
-                color: $main-color-dark;
-            }
-        }
-    }
-}
