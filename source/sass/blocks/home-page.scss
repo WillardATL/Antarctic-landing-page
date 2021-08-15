@@ -5,18 +5,15 @@
     background-repeat: no-repeat;  
     background-size: cover;
     color: $main-color-light; 
-    .section__body {
-        //align-items: flex-start;
-        //justify-content: center;
-    }
+    min-height: 100vh;
     .section__title {
-        margin-top: 40%;
-        margin-bottom: 25px;
+        margin-top: 37vh;
+        margin-bottom: 20px;
     }
 
 }
 
-@media (min-device-width: 768px) {
+@media only screen and (min-device-width: 768px) {
     .home-page {
     background-image: url("../img/background-home-desktop@1x.webp");
     background-position: 90% bottom;

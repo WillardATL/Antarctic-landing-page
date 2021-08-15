@@ -19,6 +19,7 @@
     .item {
         background-color: $main-color-light;
         padding: 25px 20px;
+        max-width: 290px;
         &__title {
             margin: 25px 0 20px;
         }
@@ -27,5 +28,19 @@
         }
 
     }
+}
 
+@media only screen and (min-device-width: 768px) {
+    .advantages-page {
+        .section__content {
+            flex-direction: row;
+            gap: 30px;
+            justify-content: space-between;
+        }
+        .item {
+            flex-grow: 1;
+            flex-basis: 0;
+            max-width: 360px;
+        }
+    }
 }
