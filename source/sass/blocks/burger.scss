@@ -84,10 +84,6 @@
     }
 }
 
-.burger__checkbox:active ~ .burger-menu {
-    //display: flex;
-}
-
 .burger__checkbox:checked ~ .burger-menu {
     height: 100vh;
 }
@@ -105,5 +101,6 @@
         top: 6px;
         transform: rotate(45deg);
         background-color:$main-color-dark;
+
     }
 }
