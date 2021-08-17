@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
-<body>
+<body id="body">
 
   <header class="header" id="header">
     <div class="container">
@@ -42,11 +42,11 @@
         <div class="burger">
           <input class="burger__checkbox" type="checkbox" id="burger__checkbox">
           <div class="burger-button">
-            <label class="burger__label" for="burger__checkbox"></label>
+            <label class="burger__label" for="burger__checkbox" id="burger__lable"></label>
             <div class="burger-button__line"></div>
           </div>
           <nav class="burger-menu">
-            <ul class="burger-menu__list">
+            <ul class="burger-menu__list" id="burger-menu__list">
               <li class="burger-menu__item">
                 <a class="burger-menu__link" href="#about">About</a>
               </li>
@@ -362,6 +362,8 @@
       </div>
     </footer>
   </div>
-</body>
 
+  <script src="js/main.js"></script>
+
+</body>
 </html>

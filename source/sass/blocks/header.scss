@@ -2,8 +2,15 @@
     width:100%;
     background-color: transparent;
     position: absolute;
+    z-index: 999;
     top: 0;
     left: 0;
+    &-fixed {
+        position: fixed;
+        .logo__img {
+            fill: $main-color-dark;
+        }
+    }
     &__body {
         display: flex;
         align-items: center;

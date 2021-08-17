@@ -17,6 +17,9 @@ body {
   line-height: 150%;
   font-weight: 400;
   color: $main-color-dark;
+  &.body-overflow {
+    overflow: hidden;
+  }
 }
 
 .wrapper {
