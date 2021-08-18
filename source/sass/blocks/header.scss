@@ -5,6 +5,7 @@
     z-index: 999;
     top: 0;
     left: 0;
+    padding-top: 20px;
     &-fixed {
         position: fixed;
         .logo__img {
@@ -32,6 +33,12 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .header {
+        padding-top: 35px;
+        .logo {
+            flex: 0 0 50px;
+        }
+    }
     .menu {
         display: flex !important;
         &__list {
@@ -44,9 +51,6 @@
         }
         &__link {
             text-decoration: none;
-            font-size: 14px;
-            line-height: 17px;
-            font-weight: 500;
             color: $main-color-light;
             &:hover,
             &:active,
@@ -59,3 +63,9 @@
         display: none;
     }
 }
+
+@media only screen and (min-width: 1366px) {
+    .header .logo {
+            flex: 0 0 70px;
+        }
+    }

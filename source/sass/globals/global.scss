@@ -68,7 +68,7 @@ img {
     line-height: 125%;
     font-weight: 700;
   }
-  &-middle {
+  &-medium {
     font-size: 24px;
     line-height: 140%;
     font-weight: 700;
@@ -97,7 +97,7 @@ img {
     font-weight: 400;
     line-height: 140%;
   }
-  &-middle {
+  &-medium {
     font-size: 16px;
     font-weight: 400;
     line-height: 140%;
@@ -121,5 +121,46 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   .container {
     padding: 0 45px;
+  }
+  .title {
+    &-big {
+      font-size: 50px;
+    }
+    &-medium {
+      font-size: 34px;
+    }
+    &-small {
+      font-size: 26px;
+    }
+  }
+  .text {
+    &-big {
+      font-size: 18px;
+    }
+    &-menu {
+      font-size: 16px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .title {
+    &-big {
+      font-size: 54px;
+    }
+    &-medium {
+      font-size: 40px;
+    }
+    &-small {
+      font-size: 28px;
+    }
+  }
+  .text {
+    &-big {
+      font-size: 20px;
+    }
+    &-menu {
+      font-size: 18px;
+    }
   }
 }

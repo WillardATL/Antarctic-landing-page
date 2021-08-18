@@ -1,7 +1,7 @@
 .home-page {
     background-image: url("../img/background-home-mobile@1x.webp");
     background-color: $bg-color-reserv;
-    background-position: center bottom;
+    background-position: center top;
     background-repeat: no-repeat;  
     background-size: cover;
     color: $main-color-light; 
@@ -17,6 +17,9 @@
     .home-page {
     background-image: url("../img/background-home-desktop@1x.webp");
     background-position: 90% bottom;
+    }
+    .footer .logo {
+        
     }
 }
     

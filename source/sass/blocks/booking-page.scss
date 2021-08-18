@@ -9,10 +9,34 @@
         align-items: center;
         padding: 65px 0 65px;
     }
+    .section__content {
+        text-align: center;
+    }
     .section__text {
         margin: 25px 0 40px;
         padding: 0 15px;
         line-height: 160%;
         text-align: center;
+    }
+}
+
+@media only screen and (min-device-width: 1366px) {
+    .booking-page {
+        background-position: 65% center;
+    }
+    .booking-page .section__body {
+        flex-direction: row;
+        gap: 150px;
+        justify-content: center;
+    }
+
+    .booking-page .section__content {
+        text-align: left;
+    }
+
+    .booking-page .section__text {
+        text-align: left;
+        padding: 0;
+        max-width: 380px;
     }
 }
