@@ -1,0 +1,22 @@
+.social {
+    display: inline-flex;
+    gap: 25px;
+    &__item {
+        display: flex;
+        justify-content: center;
+    }
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__link-img {
+        height: 100%;
+        fill: $main-color-light;
+        &:hover,
+        &:active,
+        &:focus {
+            fill: lighten($bg-color-reserv, 25);
+        }
+    }
+}

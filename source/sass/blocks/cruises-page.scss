@@ -38,14 +38,16 @@
             width: 100%;
             font-size: 14px;
             font-weight: 600;
-            color: $main-color-dark;
-            border: none;
-            background-color:  $main-color-light;
+            color: $main-color-light;
+            border: 2px solid $main-color-light;
+            background-color:  $main-color-dark;
+            transition: all 0.3s ease-in-out;
             &:hover,
             &:focus,
             &:active {
                 cursor: pointer;
-                box-shadow: inset 1px 1px 5px $main-color-dark;
+                color: $main-color-dark;
+                background-color:  $main-color-light;
             }
         }
         &::after {
