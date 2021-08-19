@@ -1,5 +1,5 @@
 .footer {
-    width:100vw;
+    width:100%;
     background-color: $main-color-dark;
     &__body {
         display: flex;
@@ -26,18 +26,6 @@
             flex-direction: column;
             gap: 23px;
             padding-inline-start: 0px;
-        }
-        &__item {
-            list-style: none;
-        }
-        &__link {
-            text-decoration: none;
-            color: $main-color-light;
-            &:hover,
-            &:active,
-            &:focus {
-                color: darken($main-color-light, 25);
-            }
         }
     }
     .social {

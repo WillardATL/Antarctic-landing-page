@@ -26,7 +26,6 @@
             }
         &-label {
             position: relative;
-            font-size: 10px; 
             line-height: 18px;
             &::before {
                 content: "";
@@ -64,9 +63,13 @@
         font-size: 14px;
         font-weight: 600;
         color: $main-color-dark;
+        border: none;
         background-color:  $main-color-light;
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
             cursor: pointer;
+            box-shadow: inset 1px 1px 5px $main-color-dark;
         }
     }
 }

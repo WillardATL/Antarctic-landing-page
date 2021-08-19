@@ -33,6 +33,21 @@
             color: $bg-color;
             margin-bottom: 20px;
         }
+        .button {
+            height: 30px;
+            width: 100%;
+            font-size: 14px;
+            font-weight: 600;
+            color: $main-color-dark;
+            border: none;
+            background-color:  $main-color-light;
+            &:hover,
+            &:focus,
+            &:active {
+                cursor: pointer;
+                box-shadow: inset 1px 1px 5px $main-color-dark;
+            }
+        }
         &::after {
             content: '';
             display: block;
